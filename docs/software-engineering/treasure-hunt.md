@@ -29,6 +29,8 @@ A foray into the world of UX/UI mobile design with Adobe XD.
 ## Project
 
 This was my first foray into the world of UI/UX design and I have to say it was very rewarding. It was refreshing to approach the project from the design perspective and experiment with various tools such as Adobe XD to create a high fidelity mockup for a proposed mobile application.
+
+<p align="center"><img src="assets/treasure-hunt.png"></p>
   
 ## Project Details
 
