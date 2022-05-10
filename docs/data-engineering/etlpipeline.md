@@ -1,3 +1,10 @@
+---
+layout: default
+title: AWS CDK ETL Pipeline
+parent: Data Engineering
+nav_order: 2
+---
+
 # Cloud Development Kit ETL Pipeline
 {: .fs-9 .no_toc}
 
