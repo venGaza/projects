@@ -19,6 +19,11 @@ aux_links:
 # nav_sort: case_insensitive # default, equivalent to nil
 nav_sort: case_sensitive # Capital letters sorted before lowercase
 
+# Google Analytics Tracking (optional)
+# e.g, UA-1234567-89
+# ga_tracking: 
+# ga_tracking_anonymize_ip: true # Use GDPR compliant Google Analytics settings (true by default)
+
 ### Footer content ###
 
 # Back to top link
