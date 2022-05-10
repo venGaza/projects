@@ -4,5 +4,5 @@ search.heading_level: 3
 
 # Aux links for the upper right navigation
 aux_links:
-  "Back to projects":
-    - ""
+  "Back to portfolio":
+    - "https://vengaza.github.io/"
