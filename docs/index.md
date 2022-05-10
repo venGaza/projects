@@ -14,7 +14,7 @@ A collection of my personal projects and learning explorations.
 
 ---
 
-# Thanks for visiting!
+## Thanks for visiting!
 
 Sometimes you don’t know what you want until you just do. I had no clue what career I wanted to pursue after finishing college, but I did know that I wanted to live a life of adventure! After a slight life detour through military healthcare, I decided to completely change paths and delve into the world of programming.
 
