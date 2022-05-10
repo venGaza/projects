@@ -1,4 +1,10 @@
-# Cloud Development Kit ETL Pipeline
+---
+layout: default
+title: Home
+nav_order: 1
+---
+
+# Home
 {: .fs-9 .no_toc}
 
 An extensible CDK ETL pipeline template written in TypeScript to help speed up the data engineering transformation process.
