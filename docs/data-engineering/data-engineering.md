@@ -8,5 +8,5 @@ permalink: docs/data-engineering
 
 # Data Engineering Projects
 {: .fs-9 .no_toc}
-A collection of personal projects pertaining to data engineering.
+A collection of personal projects pertaining to data engineering
 {: .fs-6 .fw-300 }
