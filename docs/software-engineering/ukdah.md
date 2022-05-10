@@ -15,15 +15,7 @@ Full-stack web application to auto-generate PDF certificates.
 
 ---
 
-![Alt text](public/images/readme/banner.jpg?raw=true "Ukdah | Employee Recognition Portal")
 
-<p align="center"> 
-<a href="https://travis-ci.com/venGaza/ukdah"><img src="https://img.shields.io/travis/com/venGaza/ukdah/master.svg?label=Build%20%28Master%29&style=for-the-badge" alt="npm version"></a>
-<a href="https://travis-ci.com/venGaza/ukdah"><img src="https://img.shields.io/travis/com/venGaza/ukdah/dev.svg?label=Build%20%28Dev%29&style=for-the-badge" alt="npm version"></a>
-<a href="https://github.com/venGaza/ukdah/tree/master"><img src="https://img.shields.io/github/repo-size/venGaza/ukdah.svg?style=for-the-badge" alt="npm version"></a>
-<a href="https://github.com/venGaza/ukdah/tree/master"><img src="https://img.shields.io/github/issues/venGaza/ukdah.svg?style=for-the-badge" alt="npm version">
-<a href="https://github.com/venGaza/ukdah/tree/master"><img src="https://img.shields.io/github/license/venGaza/ukdah.svg?style=for-the-badge" alt="npm version"></a>
-</p>
 
 <details open markdown="block">
   <summary>
@@ -36,13 +28,15 @@ Full-stack web application to auto-generate PDF certificates.
 
 ## Overview
 
-Introduction: Awards play a critical role in recognizing employee accomplishments and boosting morale within an organization but most systems are out of date or too reliant upon an extensive human resources staff. The Ukdah team aims to solve this problem by working on a database-backed, responsive website which can be used to track and deliver employee recognition awards. The website will streamline the recognition process by giving users the ability to send recognition to those that they feel are deserving, and it will also provide critical business intelligence data to users overseeing the management of their awards program. Every employee deserves to be recognized for the value he/she brings to their respective organizations while organizations deserve a simple and effective solution to accomplish this. The Ukdah employee recognition website will lead the way!
+### Introduction
+Awards play a critical role in recognizing employee accomplishments and boosting morale within an organization but most systems are out of date or too reliant upon an extensive human resources staff. The Ukdah team aims to solve this problem by working on a database-backed, responsive website which can be used to track and deliver employee recognition awards. The website will streamline the recognition process by giving users the ability to send recognition to those that they feel are deserving, and it will also provide critical business intelligence data to users overseeing the management of their awards program. Every employee deserves to be recognized for the value he/she brings to their respective organizations while organizations deserve a simple and effective solution to accomplish this. The Ukdah employee recognition website will lead the way!
 
-User Perspective: The users of this website will be employees of larger enterprise organizations who are having trouble managing their awards recognition process. These users can be split into two groups which include basic users who are authorized to give out rewards and admin users who serve in a managerial role to oversee the awards program for their entire enterprise. Both users will first encounter an authentication process where they will have to sign into an account, or create one if they have not done so yet. Basic users will need to submit a signature image in order to complete their account sign up since the signature will need to be used for their certificates. The authentication system will also feature a forgotten password recovery process which will email users a forgotten password to the registered email address. Once logged in, a basic user will have the ability to create an award. This will require the user to enter some basic information about the employee being generated and then the system will generate the certificate and email it to the awardee in a PDF format. Basic users will be able to see all the certificates they have awarded and will be able to delete them if they change their mind. When an admin user log in, they will not have the ability to create any awards. Instead, they will be presented with various data statistics in regards to the awards such as amounts, regions, and awarders. The admin user will also have the ability to add/edit/delete both other admin users and basic users.
+### User Perspective
+The users of this website will be employees of larger enterprise organizations who are having trouble managing their awards recognition process. These users can be split into two groups which include basic users who are authorized to give out rewards and admin users who serve in a managerial role to oversee the awards program for their entire enterprise. Both users will first encounter an authentication process where they will have to sign into an account, or create one if they have not done so yet. Basic users will need to submit a signature image in order to complete their account sign up since the signature will need to be used for their certificates. The authentication system will also feature a forgotten password recovery process which will email users a forgotten password to the registered email address. Once logged in, a basic user will have the ability to create an award. This will require the user to enter some basic information about the employee being generated and then the system will generate the certificate and email it to the awardee in a PDF format. Basic users will be able to see all the certificates they have awarded and will be able to delete them if they change their mind. When an admin user log in, they will not have the ability to create any awards. Instead, they will be presented with various data statistics in regards to the awards such as amounts, regions, and awarders. The admin user will also have the ability to add/edit/delete both other admin users and basic users.
 
 ## Demo
 
-<p align="center"><img src="public/images/readme/demo.gif?raw=true"></p>
+<p align="center"><img src="assets/ukdah/readme/demo.gif?raw=true"></p>
 
 A live demonstration of this web application can be accessed at the following link (OSU VPN REQUIRED):
 
@@ -59,27 +53,27 @@ If you do not have access to the OSU VPN, please download the project and view l
 ## Screenshots
 
 <p float="left" align="center">
-  <img src="public/images/readme/s1.jpg?raw=true" width="200" />
-  <img src="public/images/readme/s2.jpg?raw=true" width="200" /> 
-  <img src="public/images/readme/s3.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/s1.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/s2.jpg?raw=true" width="200" /> 
+  <img src="assets/ukdah/readme/s3.jpg?raw=true" width="200" />
 </p>
 
 <p float="left" align="center">
-  <img src="public/images/readme/s4.jpg?raw=true" width="200" />
-  <img src="public/images/readme/s5.jpg?raw=true" width="200" /> 
-  <img src="public/images/readme/s6.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/s4.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/s5.jpg?raw=true" width="200" /> 
+  <img src="assets/ukdah/readme/s6.jpg?raw=true" width="200" />
 </p>
 
 <p float="left" align="center">
-  <img src="public/images/readme/s7.jpg?raw=true" width="200" />
-  <img src="public/images/readme/s8.jpg?raw=true" width="200" /> 
-  <img src="public/images/readme/s9.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/s7.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/s8.jpg?raw=true" width="200" /> 
+  <img src="assets/ukdah/readme/s9.jpg?raw=true" width="200" />
 </p>
 
 <p float="left" align="center">
-  <img src="public/images/readme/s10.jpg?raw=true" width="200" />
-  <img src="public/images/readme/s11.jpg?raw=true" width="200" /> 
-  <img src="public/images/readme/s12.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/s10.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/s11.jpg?raw=true" width="200" /> 
+  <img src="assets/ukdah/readme/s12.jpg?raw=true" width="200" />
 </p>
 
 ## Getting Started
@@ -256,7 +250,7 @@ $ npm start
 ## Database
 This project leverages an embedded database, SQLite, as opposed to the client-server model.  It writes all information to a database file in the models folder instead of making use of the memory function. The data manipulation queries have also been included if you wish to edit the design. Below is the entity relationship diagram for the current database file:  
 
-![Alt text](public/images/readme/ukdahERD.png?raw=true "Entity Relationship Diagram")
+![Alt text](assets/ukdah/readme/ukdahERD.png?raw=true "Entity Relationship Diagram")
 
 ## Authentication
 Originally, the Ukdah team planned on implementing user authentication using Passport, but ran into issues trying to integrate with SQLite. The original strategy was to use the passport-local strategy to authenticate users and combining it with the Bcrypt module in order to both hash and salt the stored passwords for security purposes. User sessions would be managed with JSON Web Tokens (JWT) instead of sessions. The strategy also called for using the Sequelize module to help simplify the integeration of all these modules with SQLite. Unfortunately, we ran out of time trying to implement this plan and instead made use of a less robust solution by using global variables. When users arrive at the website, they are presented with two options, login or signup. If a user is new, they will go to the sign up page and create an account by entering a name, password, email, region, user type, and optionally a PNG signature to be used as the signature on their certificates. 
@@ -264,14 +258,14 @@ Originally, the Ukdah team planned on implementing user authentication using Pas
 They will then be redirected to the login page to login with their credentials. The login page performs a query and checks the SQLite db to see if their is an email and password that matches the input. If there is a match, the user or admin is directed to their specified index page. Users will not have access to admin pages and vice versa.
 
 <p float="left" align="center">
-  <img src="public/images/readme/auth1.jpg?raw=true" width="200" />
-  <img src="public/images/readme/auth2.jpg?raw=true" width="200" /> 
-  <img src="public/images/readme/auth3.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/auth1.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/auth2.jpg?raw=true" width="200" /> 
+  <img src="assets/ukdah/readme/auth3.jpg?raw=true" width="200" />
 </p>
 
 An additional functionality is that users have the ability to request forgotten passwords. If they navigate to the forgotten password view, they will be prompted to enter their account email. The web application will verify the email exists (will return an error if it does not), and then it will automatically generate an email with the account password. A completion message will notify the user when the email has been sent. An example of the lost password message is below: 
 
-![Alt text](public/images/readme/passwordEmail.jpg?raw=true "Password Email")
+![Alt text](assets/ukdah/readme/passwordEmail.jpg?raw=true "Password Email")
 
 ## Certificate Generation
 The application makes use of two main node modules to accomplish the certificate generation which are PDFKit and Nodemailer. When users sign in to the application, they will first arrive at the user index page and are presented with a basic menu. In order for users to send a certificate, they must first add their employees names and emails to their profile by filling out a simple form. After adding their employees, the user will then navigate to the create award page. This will be another form which provides drop downs for types of awards the user can give and their current employee list. Once the selections have been made, the user just needs to press send and a certificate will automatically be generated and sent to the selected employees email automatically. 
@@ -279,9 +273,9 @@ The application makes use of two main node modules to accomplish the certificate
 The web application first uses PDFkit to overlay text over a prerendered image. The originally planned to send the form data to a preformatted LaTeX template, but decided against this route due to the complexity. Node then sends a database query to retrieve the user's name, employee's name, date, and signature. It appends each of these items at a specific coordinate over the certificate image to give the appearance of being filled out and then outputs the final product to a certificate folder. The next module that is used is Nodemailer. This module simply connects the application to a third party email service and emails the a pregenerated message (again using the query data from the prevous part) and certificate as an attachment. One of the big considerations in setting up the email integration was how to store the email account credentials since the repository was public. We decided to adhere to the 12 factor application methodology and store the credentials in the environment (.env file) rather than creating a configuration file. This required the use of the dotenv module to read the variables into the environment. With all this in place, the application will email an output that looks like this: 
 
 <p float="left" align="center">
-  <img src="public/images/readme/cert1.jpg?raw=true" width="200" />
-  <img src="public/images/readme/cert2.jpg?raw=true" width="200" /> 
-  <img src="public/images/readme/cert3.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/cert1.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/cert2.jpg?raw=true" width="200" /> 
+  <img src="assets/ukdah/readme/cert3.jpg?raw=true" width="200" />
 </p>
 
 ## Business Intelligence Analytics
@@ -291,9 +285,9 @@ A functionality allowed to adminstrator users is the ability to generate CSV fil
 The first section, "premade intelligence", includes two buttons, "Users by created awards" and "Regions by most awards", respectively. The first button will take the user to the CSV preview page where it will list the user and the number of awards they have created in descending order. This CSV file can then be downloaded from that page. The second button will also go the CSV preview page, but it will instead list the regions by the number of awards received by users within those regions. This CSV file can then be downloaded from that page. The second section allows the download of each database table as a CSV file. Each table has a respective link that will take the user to the CSV preview page and allow them to download the table from there. 
 
 <p float="left" align="center">
-  <img src="public/images/readme/premade1.jpg?raw=true" width="200" />
-  <img src="public/images/readme/premade2.jpg?raw=true" width="200" /> 
-  <img src="public/images/readme/premade3.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/premade1.jpg?raw=true" width="200" />
+  <img src="assets/ukdah/readme/premade2.jpg?raw=true" width="200" /> 
+  <img src="assets/ukdah/readme/premade3.jpg?raw=true" width="200" />
 </p>
 
 The third and final section is the most expansive of the Intelligence abilities. As proper access to data can be incredibly useful in developing a better understanding of a company, community, or any group of people, it was important that the Intelligence feature was robust and able to generate any dataset that the user may require. In the "Custom Intelligence" section of the page, the four major tables of the database have been given their own tables, with each category given their own row with a "select", "count", and "group by" feature. To include a category in the data selection, all the user has to do is choose the checkbox corresponding to the correct row. If the user would like to have that value counted, they can check the checkbox next to the select box. If they wish to group the dataset by that value, there is a radio button on the far right side of the tree. As there cannot be multiple values passed in as "group by", this is a radio button and only one of the data points throughout the whole table can be selected. When the user determines that they have all of the data they wish for, they can click the submit button at the bottom of the table and that will take them to the CSV preview page where they can download the data that they have requested.
