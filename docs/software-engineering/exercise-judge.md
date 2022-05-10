@@ -5,6 +5,16 @@ parent: Software Engineering
 nav_order: 2
 ---
 
+# Exercise Judge
+{: .fs-9 .no_toc}
+
+A simple application that uses Computer Vision to judge the completion of an exercise repetition.
+{: .fs-6 .fw-300 }
+
+[Get started now](#project){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/venGaza/aiTrainer){: .btn .fs-5 .mb-4 .mb-md-0 }
+
+---
+
 <details open markdown="block">
   <summary>
     Table of contents
@@ -14,7 +24,7 @@ nav_order: 2
 {:toc}
 </details>
   
-## Project Overview
+## Project
 
 <p>
 Sports serve as an outlet for our competitive nature and at the highest levels, adherence to the rules becomes critical to determining a winner. In most cases, a referee (or many) is designated to supervise the event and enforce the designated ruleset. However, any person who has coordinated a sporting event knows it a challenge to find competent referees to overwatch an event. This occurs because referees typically require some form of experience to provide credibility to their calls, and people would rather enjoy their time playing the sport rather than being on the sidelines enforcing the rules. Can computer vision help fill the gap?
@@ -23,8 +33,6 @@ Sports serve as an outlet for our competitive nature and at the highest levels, 
 <p>
 CrossFit is one such sporting event that uses a myriad of referees. Athletes test their strength and endurance by completing a variety of fitness challenges. Some of these challenges require repetitions of a movement to complete. In this case, the referee would ensure the athlete is performing the movement correctly before counting a repetition. In this project, I use computer vision to count repetitions of various exercises and see if it could truly replace a human referee. 
 </p>
-
-
 
 ## Demo
 
