@@ -10,7 +10,7 @@ nav_order: 1
 A collection of my personal projects and learning explorations.
 {: .fs-6 .fw-300 }
 
-[Get started now](#project){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/venGaza){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Portfolio](https://vengaza.github.io){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://github.com/venGaza){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
