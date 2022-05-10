@@ -25,31 +25,14 @@ Full-stack web application to auto-generate PDF certificates.
 <a href="https://github.com/venGaza/ukdah/tree/master"><img src="https://img.shields.io/github/license/venGaza/ukdah.svg?style=for-the-badge" alt="npm version"></a>
 </p>
 
-## Table of Contents
-- [Table of Contents](#table-of-contents)
-- [Overview](#overview)
-- [Demo](#demo)
-  - [Test Accounts](#test-accounts)
-- [Screenshots](#screenshots)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Download the Project (Command Line)](#download-the-project-command-line)
-  - [Install](#install)
-  - [Run](#run)
-  - [Run with Docker](#run-with-docker)
-  - [Persistence (via PM2)](#persistence-via-pm2)
-  - [Errors](#errors)
-- [Dependencies & Middleware](#dependencies--middleware)
-- [Application Structure](#application-structure)
-- [Database](#database)
-- [Authentication](#authentication)
-- [Certificate Generation](#certificate-generation)
-- [Business Intelligence Analytics](#business-intelligence-analytics)
-- [Built With](#built-with)
-- [Authors and Contributions](#authors-and-contributions)
-- [Final Thoughts](#final-thoughts)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+1. TOC
+{:toc}
+</details>
 
 ## Overview
 
