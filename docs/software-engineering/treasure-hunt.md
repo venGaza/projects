@@ -11,7 +11,7 @@ nav_order: 2
 A foray into the world of UX/UI mobile design with Adobe XD.
 {: .fs-6 .fw-300 }
 
-[Get started now](#project){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on GitHub](https://xd.adobe.com/view/f1135a4f-0b98-4ea5-44d5-d6030aaeb56c-8722/?fullscreen){: .btn .fs-5 .mb-4 .mb-md-0 }
+[Get started now](#project){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [View it on AdobeXD](https://xd.adobe.com/view/f1135a4f-0b98-4ea5-44d5-d6030aaeb56c-8722/?fullscreen){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
