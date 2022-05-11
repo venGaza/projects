@@ -18,6 +18,5 @@ Overview of personal projects and learning tribulations.
 
 This site is a compilation of my personal projects I have worked on to further my knowledge in areas that interested me. Some are successes and some are complete failures, but all of them played a part in shaping my current understanding of various programming languages, frameworks, tools, and methodologies.  All coding projects are also available on my [Github](https://github.com/vengaza). Thanks for visiting! 
 
-<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-<p align="center"><lottie-player src="https://assets1.lottiefiles.com/packages/lf20_wci9dxrs.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player></p>
 ![imgur](https://lottiefiles.com/98325-programming)
+<p align="center"><img src="assets/home.gif"></p>
