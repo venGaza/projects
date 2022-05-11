@@ -20,3 +20,4 @@ This site is a compilation of my personal projects I have worked on to further m
 
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <p align="center"><lottie-player src="https://assets1.lottiefiles.com/packages/lf20_wci9dxrs.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  loop controls autoplay></lottie-player></p>
+![imgur](https://lottiefiles.com/98325-programming)
