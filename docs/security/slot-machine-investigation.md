@@ -36,14 +36,14 @@ We start our enumeration by familiarizing ourselves with how the application wor
 
 For this challenge, we can use the Firefox browser web developer tools to analyze the network traffic between our slot machine (the client) and the frost tower servers. When we press the spin button, our browser submits a POST request to Jack's server. We can inspect this request and see all the headers and cookies, but the most important part is the body. 
 
-```CodeBlock
+```bash
 betamount=1&numline=20&cpl=0.1
 
 ```
 
 We see there are 3 parameters being passed to the server: betamount, numline, cpl. It may be possible to adjust the values of these parameters and improve our so-called luck! We need to figure out what these parameters actually correspond to. To accomplish this, we will spin the slot machine a few more times with different values for "bet size" and "bet level" and then re-inspect the post requests to see how the POST body parameters change.
 
-```CodeBlock
+```bash
 betamount = aligns to the bet level
 Numline = remains constant through each spin but probably corresponds to the number of ways to win 
 cpl = aligns to the bet size
@@ -52,7 +52,7 @@ cpl = aligns to the bet size
 
 Now we know what these parameters do, but how do they affect the logic of the server behavior? We will now look at the response to our POST request to search for clues on how to proceed.
 
-```CodeBlock
+```bash
 data	Object { credit: 98, jackpot: 0, free_spin: 0, ... }
 credit	98
 jackpot	0
@@ -69,7 +69,7 @@ The response shows that a JSON object is returned with various values the server
 One approach for experimenting with the parameters is to borrow a framework from the software development world known as ZOMBIES. This acronym stands for:
 
 
-```CodeBlock
+```bash
 Zero, One, Many, Boundaries, Interface, Exceptions, Simple
 
 ```
@@ -83,7 +83,7 @@ We can do the same process with the other two parameters. However, we find somet
 We have discovered an input validation vulnerability on Jack Frost's server. Even though we do not know the formula being used by the server to calculate loss/win amounts, we can deduce that the server is subtracting an amount that is multiplied by either numlines or cpl. The server is trying to subtract a negative number on losses which makes the amount positive instead. After adjusting the bet amounts and resending the request a few more times, Jack Frost has finally had enough as noted by the flag value in the server response:
 
 
-```CodeBlock
-I'm going to have some bouncer trolls bounce you right out of this casino!
+```bash
+I\'m going to have some bouncer trolls bounce you right out of this casino!
 
 ```
