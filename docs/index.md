@@ -10,7 +10,7 @@ nav_order: 1
 Overview of personal projects and learning tribulations.
 {: .fs-6 .fw-300 }
 
-[Data Engineering](/projects/docs/data-engineering){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Machine Learning](/machine-learning){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Security](/security){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Software Engineering](/software-engineering){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
+[Data Engineering](/projects/docs/data-engineering){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Machine Learning](/projects/docs/machine-learning){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Security](/projects/docs/security){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } [Software Engineering](/projects/docs/software-engineering){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 } 
 
 ---
 
